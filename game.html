@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hex Map Example</title>
+    <style>
+      #map {
+        position: relative;
+      }
+
+      .hex-info-container {
+        position: absolute;
+        background-color: white;
+        border: 1px solid black;
+        padding: 10px;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map-container">
+      <canvas id="map" width="800" height="600"></canvas>
+      <div id="hex-info-container"></div>
+    </div>
+    <script src="map_layout.js"></script>
+    <script src="map.js"></script>
+  </body>
+</html>
